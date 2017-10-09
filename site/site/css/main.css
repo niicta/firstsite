@@ -21,10 +21,10 @@ body{
 }
 .header-container{
 	padding: 15px;
-	/*height: 100px;*/
+	height: 80px;
 }
 .header-container.nikr-flex-row{
-	justify-content: space-between;
+	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
 }
@@ -33,21 +33,27 @@ body{
 	width: 65px;
 	height: 65px;
 }
-.header-sign-container.nikr-flex-row{
+.header-logo{
+	width: 100%;
+	height: auto;
+	filter: invert();
+	display: block;
+}
+.header-sign-container.nikr-flex-column{
 	justify-content: center;
-	-ms-align-items: stretch;
-	align-items: stretch;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
 }
 .header-divider{
 	width: 1px;
+	margin: 0px 20px;
 	-ms-align-self: stretch;
 	align-self: stretch;
 }
 .sign-header-text{
-	display: block;
-	min-width: 100px;
-	height: 30px;
-	margin: 5px 10px;
+	/*display: block;*/
+	/*min-width: 100px;*/
+	/*height: 30px;*/
 }
 .menu-bar{
 	padding: 20px 0px;
@@ -72,7 +78,7 @@ body{
 }
 .main-content{
 	padding: 0px 70px;
-	width: 120em;
+	width: 100em;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -104,12 +110,13 @@ body{
 	-o-flex-wrap: nowrap;
 	flex-wrap: nowrap;
 }
-.video-content-block .new-videos-header{
+.video-content-block .new-videos-header, .article-content-column .new-articles-header{
 	margin: 15px;
 	position: relative;
 	padding-bottom: 20px;
 }
-.video-content-block .new-videos-header:before{
+
+.video-content-block .new-videos-header:before, .article-content-column .new-articles-header:before{
 	content: ''; 
 	position: absolute;
 	height: 1px;
@@ -130,7 +137,6 @@ body{
 }
 .video-container{
 	width: 100%;
-	position: relative;
 	overflow: hidden;
 }
 .video-container.nikr-flex-column{
@@ -150,6 +156,8 @@ body{
 	min-width: 45%;
 	margin: 15px;
 	padding: 15px;
+	position: relative;
+	overflow: hidden;
 }
 .article-content-block.nikr-flex-row{
 	-webkit-flex-wrap: wrap;
@@ -162,18 +170,20 @@ body{
 	width: 100%;
 }
 .video-preview-img{
+	display: block;
 	width: 100%;
 	height:  auto;
-	position: absolute;
-	transition: all 0.3s ease-in;
+	transition: all 0.3s ;
+	-webkit-backface-visibility: hidden;
+-moz-backface-visibility:    hidden;
+-ms-backface-visibility:     hidden;
 }
-.video-content .filler{
-	padding-bottom:  56.25%;
-}
+
 .video-content:hover .video-preview-img{
-	width: 105%;
-	margin-top: -2.5%;
-   margin-left: -2.5%;
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+-o-transform: scale(1.05);
+transform: scale(1.05);
 }
 .video-summary{
 		width: 100%;
@@ -189,13 +199,14 @@ body{
 	-ms-flex-wrap: nowrap;
 	-o-flex-wrap: nowrap;
 	flex-wrap: nowrap;	
-	justify-content: flex-start: 	;
+	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
 }
 .article-image-container{
 		width: 100%;
 		margin:0 auto;
+		overflow: hidden;
 }
 .article-image-container a{
 	overflow: hidden;
@@ -204,11 +215,14 @@ body{
 .article-image{
 	width: 100%;
 	height: auto;	
-	transition: all 0.3s ease-in;
+	transition: all 0.3s ;
 	position: relative;
 	display: block;
+	-webkit-backface-visibility: hidden;
+-moz-backface-visibility:    hidden;
+-ms-backface-visibility:     hidden;
 }
-.article-image:hover{
+.article-container:hover .article-image{
 	transform: scale(1.05);
 }
 .article-container .article-name{
@@ -216,7 +230,40 @@ body{
 	margin: 10px 0px;
 	-ms-align-self: flex-start;
 	align-self: flex-start;
+	-webkit-transition: all 0.3s ;
+	-o-transition: all 0.3s ;
+	transition: all 0.3s ;
 }
 .article-container .article-summary{
 	margin: 0;
+}
+.article-footer{
+width: 100%;	
+padding: 5px 5px;
+margin-top: 5px;
+margin-bottom: -10px;
+ position: relative;
+ top: 20%;
+ -webkit-transition: 	all 0.3s ease-in;
+ -o-transition: 	all 0.3s ease-in;
+ transition: 	all 0.3s ease-in;
+}
+.article-footer.nikr-flex-row{
+	justify-content: space-between;
+}
+.article-footer .comments-container{
+	width: 10%;	
+}
+.article-footer .comments-container.nikr-flex-row{
+	justify-content: flex-start;
+}
+.article-container:hover .article-footer{
+ top: 0%;
+}
+.article-footer .comments-container .comments-ico{
+	width: 30px;
+	height: 30px;	
+	display: block;
+	-ms-align-self: center;
+	align-self: center;	
 }

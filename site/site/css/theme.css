@@ -11,11 +11,11 @@ body{
 	background-color: #F4F4F4;
 }
 .header-container{
-	background-color: #444444;	
+	background-color: rgb(42, 130, 129);	
 }
 .header-logo-container{
 	border-radius: 100%;
-	border: 1px solid #ffffff;
+	border: 2px solid #ffffff;
 }
 .header-divider{
 	background-color: #ffffff;
@@ -35,6 +35,9 @@ body{
 .sign-header-text{
 	text-align: center;
 	line-height: 150%;
+	color: #fff;
+	font-family: "Alegreya Sans SC";
+	letter-spacing: 0.15em;
 }
 
 .editable{
@@ -56,6 +59,7 @@ body{
 }
 .video-content {
 	border: 1px solid rgba(160,160,160, 0.3);
+	cursor: pointer;
 }
 .video-name{
 	font-family:  "RalewayBold";
@@ -79,12 +83,14 @@ body{
 .article-container .article-name{
 	font-family: "RalewayBold";
 	text-transform: uppercase;
-	font-size: 1.8em;
-	letter-spacing: 0.2em;
+	font-size: 1.2em;
+	letter-spacing: 0.01em;
 }
 .article-container .article-summary{
-	font-family: 	"Alegreya Sans SC";
-	font-size: 1.125em;
+	font-family: 	"CleanvertisingLight";
+	font-weight: bold;	
+	font-size: 1em;
+	letter-spacing: 0.1em;
 }
 .button{
 	border-radius: 	0px;
@@ -102,18 +108,35 @@ body{
 }
 .button:hover{
 	background: #fff;
-	border: 0.1em solid #000;
-	color: #000;
+	border: 0.1em solid rgb(42, 130, 129);
+	color: rgb(42, 130, 129);
 	/*color: #fff;*/
 	/*border: 2px solid rgba(160,160,160, 0.5);*/
 }
-.video-content-block .new-videos-header{
+.video-content-block .new-videos-header,  .article-content-column .new-articles-header{
 	font-family: "RalewayBold";
 	font-weight: bold;
 	letter-spacing: 0.3em;
 	text-transform: uppercase;
 	font-size: 1.5em;
 }
-.video-content-block .new-videos-header:before{
+/*.video-content-block .new-videos-header{
+	border-right: 1px solid rgba(160,160,160, 0.3);
+}*/
+/*.article-content-column .new-articles-header{
+	border-left: 1px solid rgba(160,160,160, 0.3);
+}*/
+.video-content-block .new-videos-header:before,  .article-content-column .new-articles-header:before{
 	background: rgba(160,160,160, 0.3);
-	}
+}
+.article-container:hover .article-name{
+	color: rgb(42, 130, 129);
+}
+.article-footer .show-article{
+	padding: 2px;
+	font-size: 1em;
+	letter-spacing: 0;
+}
+.article-footer{
+	border-top: 1px solid #eaeaea
+}
