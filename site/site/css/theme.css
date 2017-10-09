@@ -1,0 +1,119 @@
+/*EAEAEA borders*/
+@import url("fonts.css");
+body{
+	background-color: #F4F4F4;
+}
+.menu-bar{
+	border-bottom: 1px solid rgba(160,160,160, 0.3);
+	background-color: #fff;
+}
+.main-content{
+	background-color: #F4F4F4;
+}
+.header-container{
+	background-color: #444444;	
+}
+.header-logo-container{
+	border-radius: 100%;
+	border: 1px solid #ffffff;
+}
+.header-divider{
+	background-color: #ffffff;
+}
+.header-sign-in{
+	border: 1px solid #fff;
+	border-right: 0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.header-sign-up{
+	border: 1px solid #fff;
+	border-left: 0;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.sign-header-text{
+	text-align: center;
+	line-height: 150%;
+}
+
+.editable{
+	border: 1px solid red;
+}
+.menu-element-container{
+	border-left: 0.1em solid rgba(160,160,160, 0.3);
+}
+.menu-element-container:first-child{
+	border: 0;
+}
+
+.menu-element{
+	text-decoration: none;
+	color: #000;
+}
+.video-content{
+	background-color: #fff
+}
+.video-content {
+	border: 1px solid rgba(160,160,160, 0.3);
+}
+.video-name{
+	font-family:  "RalewayBold";
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+.menu-element{
+	font-family:  "Alegreya Sans SC";
+	text-transform: uppercase;
+	font-size: 10
+
+}
+.header-sign-container{
+	font-family:  "Alegreya Sans SC";
+	text-transform: uppercase;
+}
+.article-container{
+	background-color: #fff;
+	border: 1px solid rgba(160,160,160, 0.3);
+}		
+.article-container .article-name{
+	font-family: "RalewayBold";
+	text-transform: uppercase;
+	font-size: 1.8em;
+	letter-spacing: 0.2em;
+}
+.article-container .article-summary{
+	font-family: 	"Alegreya Sans SC";
+	font-size: 1.125em;
+}
+.button{
+	border-radius: 	0px;
+	border: 0.1em solid rgba(160,160,160, 0.4);
+	background: transparent;
+	padding: 10px;
+	-ms-align-self: center;
+	align-self: center;
+	font-family: 	"Exo 2";
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: rgb(160, 160, 160);
+	letter-spacing: 0.1em;
+	transition: all 0.3s ease-in;
+}
+.button:hover{
+	background: #fff;
+	border: 0.1em solid #000;
+	color: #000;
+	/*color: #fff;*/
+	/*border: 2px solid rgba(160,160,160, 0.5);*/
+}
+.video-content-block .new-videos-header{
+	font-family: "RalewayBold";
+	font-weight: bold;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+.video-content-block .new-videos-header:before{
+	background: rgba(160,160,160, 0.3);
+	}
