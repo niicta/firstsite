@@ -38,6 +38,7 @@ body{
 	color: #fff;
 	font-family: "Alegreya Sans SC";
 	letter-spacing: 0.15em;
+	cursor: pointer;
 }
 
 .editable{
@@ -86,6 +87,36 @@ body{
 	font-size: 1.2em;
 	letter-spacing: 0.01em;
 }
+.article-container .article-name a{
+	font-family: "RalewayBold";
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 0.01em;
+}
+.article-content .article-name{
+	font-family: "RalewayBold";
+	text-transform: uppercase;
+	font-size: 1.7em;
+	letter-spacing: 0.02em;
+	border-bottom: 1px solid rgba(160,160,160, 0.3);
+}
+.article-content .article-name a{
+	text-decoration: none;
+	color: #000;
+	font-family: "RalewayBold";
+	text-transform: uppercase;
+	font-size: 1.7em;
+	letter-spacing: 0.02em;
+	border-bottom: 1px solid rgba(160,160,160, 0.3);
+}
+.additional-content .additional-header{
+	font-family: "RalewayBold";
+	text-transform: uppercase;
+	font-size: 1.7em;
+	letter-spacing: 0.02em;
+}
 .article-container .article-summary{
 	font-family: 	"CleanvertisingLight";
 	font-weight: bold;	
@@ -132,6 +163,9 @@ body{
 .article-container:hover .article-name{
 	color: rgb(42, 130, 129);
 }
+.article-container:hover .article-name a{
+	color: rgb(42, 130, 129);
+}
 .article-footer .show-article{
 	padding: 2px;
 	font-size: 1em;
@@ -139,4 +173,80 @@ body{
 }
 .article-footer{
 	border-top: 1px solid #eaeaea
+}
+.video-summary .video-name{
+	font-size: 1em;
+}
+.article-container .article-name{
+	cursor: pointer;
+}
+.article-content{
+	background-color: #fff;
+	border: 1px solid rgba(160,160,160, 0.3);
+	padding: 5px;
+	margin: 5px;
+}
+.additional-content{
+	margin: 5px;
+	padding: 5px;
+background-color: #fff;
+	border: 1px solid rgba(160,160,160, 0.3);	
+}
+
+.article-content .article-content-text{
+	font-family: 	"CleanvertisingLight";
+	font-weight: bold;	
+	font-size: 1em;
+	letter-spacing: 0.01em;
+	word-spacing: 0.1em;
+}
+.article-content .article-subheader{
+	font-family: "RalewayBold";
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 0.02em;
+}
+.additional-content .additional-reference{
+	font-family: 	"CleanvertisingLight";
+	font-weight: bold;	
+	font-size: 1em;
+	letter-spacing: 0.01em;
+	word-spacing: 0.1em;
+	color: rgb(42, 130, 129);
+}
+.sing-in-popup-container , .sing-up-popup-container{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.sing-in-popup-form , .sing-up-popup-form{
+	background-color: #F4F4F4;
+}
+.popup-header{
+	background-color: rgb(42, 130, 129);	
+}
+.sing-in-popup-form , .sing-up-popup-form{
+	overflow: hidden;
+	border-radius: 	10px;
+}
+.popup-title-text{
+	text-align: center;
+	line-height: 150%;
+	color: #fff;
+	font-family: "Alegreya Sans SC";
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+.popup-label{
+	font-family: 	"CleanvertisingLight";
+	font-weight: bold;	
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+}
+.popup-field{
+	border: 1px solid;
+	border-color: rgb(42, 130, 129);	
+}
+.sing-in-popup-container , .sing-up-popup-container{
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 }
