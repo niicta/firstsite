@@ -35,11 +35,25 @@
 						<li class="menu-element-container"><a class="menu-element" href="#">тестирование</a></li>
 					</ul>
 				</div>
+				<div class="menu-bar-mobile nikr-flex-column">
+					<ul class="menu-list-mobile nikr-flex-column">
+						<li class="menu-element-container"><a class="menu-element" href="content/articles/articles.html">статьи</a></li>
+						<li class="menu-element-container"><a class="menu-element" href="#">видео</a></li>
+						<li class="menu-element-container"><a class="menu-element" href="#">аудио</a></li>
+						<li class="menu-element-container"><a class="menu-element" href="#">тестирование</a></li>
+					</ul>
+				</div>
+				<div class="menu-bar-mobile-trigger nikr-flex-column">
+					<div class="trigger-row"></div>
+					<div class="trigger-row"></div>
+					<div class="trigger-row"></div>
+				</div>
 				<div class="main-content nikr-flex-row ">
 					<!--TODO 			Переход к ROW при раздешении <950 -->
 						<div class="video-content-column nikr-flex-column">
+							<h1 class="new-videos-header">новые видео</h1>
 							<div class="video-content-block nikr-flex-column">
-								<h1 class="new-videos-header">новые видео</h1>
+								
 								<div class="video-content nikr-flex-column">
 									<div class="video-container">
 										<img src="https://img.youtube.com/vi/p45raL43p3Y/mqdefault.jpg" alt="" class="video-preview-img">
@@ -87,7 +101,9 @@
 											<img src="images/comments.png" alt="" class="comments-ico">
 											<span class="comments-count"></span>
 										</div>
-										<button class="button show-article">Далее ...</button>
+										<a href="content/articles/article1.html">
+											<button class="button show-article">Далее ...</button>
+										</a>
 									</div>
 								</div>
 								<div class="article-container nikr-flex-column ">
@@ -103,7 +119,9 @@
 											<img src="images/comments.png" alt="" class="comments-ico">
 											<span class="comments-count"></span>
 										</div>
-										<button class="button show-article">Далее ...</button>
+										<a href="content/articles/article2.html">
+											<button class="button show-article">Далее ...</button>
+										</a>
 									</div>
 								</div>
 								<div class="article-container nikr-flex-column ">
@@ -119,7 +137,9 @@
 											<img src="images/comments.png" alt="" class="comments-ico">
 											<span class="comments-count"></span>
 										</div>
-										<button class="button show-article">Далее ...</button>
+										<a href="content/articles/article3.html">
+											<button class="button show-article">Далее ...</button>
+										</a>
 									</div>
 								</div>
 								<div class="article-container nikr-flex-column ">
@@ -135,13 +155,18 @@
 											<img src="images/comments.png" alt="" class="comments-ico">
 											<span class="comments-count"></span>
 										</div>
-										<button class="button show-article">Далее ...</button>
+										<a href="content/articles/article4.html">
+											<button class="button show-article">Далее ...</button>
+										</a>
 									</div>
 								</div>
 							</div>
 							<button class="button more-articles-button">больше статей ...</button>
 						</div>
 					</div>
+				</div>
+				<div class="scroll-to-top-container nikr-flex-column">
+					<p class="scroll-to-top-text">Наверх</p>
 				</div>
 				<div class="sing-in-popup-container nikr-flex-column popup">
 					<div class="sing-in-popup-form nikr-flex-column">
@@ -156,7 +181,7 @@
 								<input type="text" class="popup-field login-field" id='sing-in-login'/>
 							</div>
 							<div class="sing-in-popup-password-row nikr-flex-row">
-								<p class="popup-label">Пароль:</p>	
+								<p class="popup-label" id = 'sing-in-password'>Пароль:</p>	
 								<input type="password" class="popup-field password-field"/>
 							</div>
 							<div class="popup-buttons nikr-flex-row">
@@ -173,7 +198,12 @@
 								<p class="popup-title-text">Регистрация</p>
 							</div>
 						</header>
+
 						<div class="sing-up-popup-form-content nikr-flex-column">
+							<div class="sing-up-popup-name-row nikr-flex-row">
+								<p class="popup-label">Ваше имя:</p>	
+								<input type="name" class="popup-field name-field" id='sing-up-name'/>
+							</div>
 							<div class="sing-up-popup-mail-row nikr-flex-row">
 								<p class="popup-label">Введите ваш E-mail:</p>	
 								<input type="text" class="popup-field mail-field" id='sing-up-mail'/>
@@ -184,11 +214,11 @@
 							</div>
 							<div class="sing-up-popup-password-row nikr-flex-row">
 								<p class="popup-label">Придумайте пароль:</p>	
-								<input type="password" class="popup-field password-field"/>
+								<input type="password" class="popup-field password-field" id='sing-up-password'/>
 							</div>
 							<div class="sing-up-popup-password-row nikr-flex-row">
 								<p class="popup-label">Повторите пароль:</p>	
-								<input type="password" class="popup-field password-field password-repeat"/>
+								<input type="password" class="popup-field password-field password-repeat" id='sing-up-password-repeat'/>
 							</div>
 							<div class="popup-buttons nikr-flex-row">
 								<button class="popup-ok-button button" id = 'ok-sing-up-button'>Регистрация</button>

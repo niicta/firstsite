@@ -3,7 +3,7 @@
 body{
 	background-color: #F4F4F4;
 }
-.menu-bar{
+.menu-bar , .menu-bar-mobile{
 	border-bottom: 1px solid rgba(160,160,160, 0.3);
 	background-color: #fff;
 }
@@ -24,7 +24,7 @@ body{
 	border: 1px solid #fff;
 	border-right: 0;
 	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-bottom-left-radius 	: 10px;
 }
 .header-sign-up{
 	border: 1px solid #fff;
@@ -51,6 +51,14 @@ body{
 	border: 0;
 }
 
+.menu-list-mobile .menu-element-container{
+	border-bottom: 0.1em solid rgba(160,160,160, 0.3);
+	border-left: 0;
+}
+.menu-list-mobile .menu-element-container:first-child{
+	border-bottom: 0.1em solid rgba(160,160,160, 0.3);
+}
+
 .menu-element{
 	text-decoration: none;
 	color: #000;
@@ -73,9 +81,12 @@ body{
 	font-size: 10
 
 }
-.header-sign-container{
+.header-sign-container, .scroll-to-top-text{
 	font-family:  "Alegreya Sans SC";
 	text-transform: uppercase;
+}
+.scroll-to-top-text{
+	color: #fff;
 }
 .article-container{
 	background-color: #fff;
@@ -144,7 +155,7 @@ body{
 	/*color: #fff;*/
 	/*border: 2px solid rgba(160,160,160, 0.5);*/
 }
-.video-content-block .new-videos-header,  .article-content-column .new-articles-header{
+.video-content-column .new-videos-header,  .article-content-column .new-articles-header{
 	font-family: "RalewayBold";
 	font-weight: bold;
 	letter-spacing: 0.3em;
@@ -157,7 +168,7 @@ body{
 /*.article-content-column .new-articles-header{
 	border-left: 1px solid rgba(160,160,160, 0.3);
 }*/
-.video-content-block .new-videos-header:before,  .article-content-column .new-articles-header:before{
+.video-content-column .new-videos-header:before,  .article-content-column .new-articles-header:before{
 	background: rgba(160,160,160, 0.3);
 }
 .article-container:hover .article-name{
@@ -249,4 +260,25 @@ background-color: #fff;
 	-webkit-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
+}
+.scroll-to-top-container{
+	display: none;
+	background-color: rgba(42, 130, 129, 0.3);
+	border-radius: 5px;
+	-webkit-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+}
+.scroll-to-top-container:hover{
+	background-color: rgba(42, 130, 129, 1);
+}
+.menu-bar-mobile-trigger{
+	background-color: rgba(350,350,350, 1);
+	border-radius: 4px;
+	border: 1px solid rgba(160,160,160, 0.3);
+}
+.trigger-row{
+	background-color:rgba(42, 130, 129, 1);
+	border-radius: 2px;
 }
