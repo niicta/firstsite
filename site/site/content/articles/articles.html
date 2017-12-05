@@ -19,11 +19,9 @@
 				</div>
 				<div class="header-sign-container nikr-flex-column">
 					<!-- <div class="header-sign-in nikr-flex-row-reverse"> -->
-						<span class="sign-header-text">вход</span>
-						<!-- </div> -->
-						<!-- 					<div class="header-divider"></div> -->
-						<!-- <div class="header-sign-up nikr-flex-row"> -->
-							<span class="sign-header-text">регистрация</span>
+											<span class="sign-header-text sing-in-button">вход</span>
+
+							<span class="sign-header-text sing-up-button">регистрация</span>
 							<!-- </div> -->
 						</div>
 					</div>
@@ -104,7 +102,7 @@
 							<div class="article-image-container">
 										<img src="../../images/article4.png" alt="" class="article-image">
 									</div>
-									<h1 class="article-name" id = "article4-header">Запятые в английском языке, или Как не съесть бабушку на ужин</h1>
+									<h1 class="article-name" id = "article4-header"><a href="article4.html">Запятые в английском языке, или Как не съесть бабушку на ужин</a></h1>
 									<p class="article-summary">
 										Я с детства люблю мультик «В стране невыученных уроков». Люблю хотя бы за то, как классно там показана важность знания правил пунктуации. Помнишь классическое «казнить нельзя помиловать»? 
 									</p>
@@ -120,7 +118,7 @@
 							<div class="article-image-container">
 										<img src="../../images/article5.jpg" alt="" class="article-image">
 									</div>
-									<h1 class="article-name" id = "article5-header">Игго Поп и его английский</h1>
+									<h1 class="article-name" id = "article5-header"><a href="article5.html">Игги Поп и его английский</a></h1>
 									<p class="article-summary">
 										Игги Поп – фигура мирового масштаба. Он и группа The Stooges оказали решающее влияние на становление музыкального жанра «панк-рок». Скоро  Игги выступает в Москве, и любителям рок-музыки никак нельзя пропустить это событие. 
 									</p>
@@ -136,7 +134,7 @@
 							<div class="article-image-container">
 										<img src="../../images/article6.png" alt="" class="article-image">
 									</div>
-									<h1 class="article-name" id = "article6-header">Who Which That: правила использования</h1>
+									<h1 class="article-name" id = "article6-header"><a href="article6.html">Who Which That: правила использования</a></h1>
 									<p class="article-summary">
 										Переведи-ка на английский язык: «Это дом, который построил Джек». Каким словом ты переведешь «который»? Which? Или that? А может who?! Запутаться в этих словах с непривычки - легко. Разобраться с ними - еще легче.
 									</p>
@@ -151,5 +149,67 @@
 					
 				</div>
 	</div>
+		<div class="scroll-to-top-container nikr-flex-column">
+					<p class="scroll-to-top-text">Наверх</p>
+				</div>
+				<div class="sing-in-popup-container nikr-flex-column popup">
+					<div class="sing-in-popup-form nikr-flex-column">
+						<header class="popup-header nikr-flex-row">
+							<div class="popup-title nikr-flex-row">
+								<p class="popup-title-text">Вход</p>
+							</div>
+						</header>
+						<div class="sing-in-popup-form-content nikr-flex-column">
+							<div class="sing-in-popup-login-row nikr-flex-row">
+								<p class="popup-label">Логин:</p>	
+								<input type="text" class="popup-field login-field" id='sing-in-login'/>
+							</div>
+							<div class="sing-in-popup-password-row nikr-flex-row">
+								<p class="popup-label" id = 'sing-in-password'>Пароль:</p>	
+								<input type="password" class="popup-field password-field"/>
+							</div>
+							<div class="popup-buttons nikr-flex-row">
+								<button class="popup-ok-button button" id = 'ok-sing-in-button'>Вход</button>
+								<button class="popup-cancel-button button" id='close-sing-in-popup'>Отмена</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sing-up-popup-container nikr-flex-column popup">
+					<div class="sing-up-popup-form nikr-flex-column">
+						<header class="popup-header nikr-flex-row">
+							<div class="popup-title nikr-flex-row">
+								<p class="popup-title-text">Регистрация</p>
+							</div>
+						</header>
+
+						<div class="sing-up-popup-form-content nikr-flex-column">
+							<div class="sing-up-popup-name-row nikr-flex-row">
+								<p class="popup-label">Ваше имя:</p>	
+								<input type="name" class="popup-field name-field" id='sing-up-name'/>
+							</div>
+							<div class="sing-up-popup-mail-row nikr-flex-row">
+								<p class="popup-label">Введите ваш E-mail:</p>	
+								<input type="text" class="popup-field mail-field" id='sing-up-mail'/>
+							</div>
+							<div class="sing-up-popup-login-row nikr-flex-row">
+								<p class="popup-label">Придумайте логин:</p>	
+								<input type="text" class="popup-field login-field" id='sing-up-login'/>
+							</div>
+							<div class="sing-up-popup-password-row nikr-flex-row">
+								<p class="popup-label">Придумайте пароль:</p>	
+								<input type="password" class="popup-field password-field" id='sing-up-password'/>
+							</div>
+							<div class="sing-up-popup-password-row nikr-flex-row">
+								<p class="popup-label">Повторите пароль:</p>	
+								<input type="password" class="popup-field password-field password-repeat" id='sing-up-password-repeat'/>
+							</div>
+							<div class="popup-buttons nikr-flex-row">
+								<button class="popup-ok-button button" id = 'ok-sing-up-button'>Регистрация</button>
+								<button class="popup-cancel-button button" id='close-sing-up-popup'>Отмена</button>
+							</div>
+						</div>
+					</div>
+				</div>
 </body>
 </html>
