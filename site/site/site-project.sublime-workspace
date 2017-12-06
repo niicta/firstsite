@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"vide",
+				"video-name"
+			],
+			[
+				"vi",
+				"video-name"
+			],
+			[
 				"article-s",
 				"article-subheader\t(article1.html)"
 			],
@@ -312,10 +320,6 @@
 				"right"
 			],
 			[
-				"vide",
-				"video-container"
-			],
-			[
 				"pr",
 				"pos-r\tposition: relative;"
 			],
@@ -330,10 +334,6 @@
 			[
 				"v",
 				"video-container"
-			],
-			[
-				"vi",
-				"video-summary\t(index.html)"
 			],
 			[
 				"video",
@@ -431,7 +431,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10564,
+				"buffer_size": 10686,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -446,13 +446,28 @@
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>СТАТЬИ</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../css/main.css\">\n\t\t<script src=\"../../script/jquery-3.2.1.js\"></script>\n\t<script src=\"../../script/scripts.js\"></script>\n</head>\n<body>\n\t<div class=\"entire-page nikr-flex-column\">\n\t\t<header class=\"header\">\n\t\t\t<div class=\"header-container nikr-flex-row\">\n\t\t\t\t<div class=\"header-logo-container\">\n\t\t\t\t\t<img src=\"../../images/site-logo.png\" alt=\"\" class=\"header-logo\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"header-divider\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t<div class=\"header-sign-container nikr-flex-column\">\n\t\t\t\t\t<!-- <div class=\"header-sign-in nikr-flex-row-reverse\"> -->\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"sign-header-text sing-in-button\">вход</span>\n\n\t\t\t\t\t\t\t<span class=\"sign-header-text sing-up-button\">регистрация</span>\n\t\t\t\t\t\t\t<!-- </div> -->\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</header>\n\n\t\t\t\t<div class=\"menu-bar nikr-flex-row\">\n\t\t\t\t\t<ul class=\"menu-list\">\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">статьи</a></li>\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">видео</a></li>\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">аудио</a></li>\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">тестирование</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"menu-bar-mobile nikr-flex-column\">\n\t\t\t\t\t<ul class=\"menu-list-mobile nikr-flex-column\">\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"content/articles/articles.html\">статьи</a></li>\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">видео</a></li>\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">аудио</a></li>\n\t\t\t\t\t\t<li class=\"menu-element-container\"><a class=\"menu-element\" href=\"#\">тестирование</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"menu-bar-mobile-trigger nikr-flex-column\">\n\t\t\t\t\t<div class=\"trigger-row\"></div>\n\t\t\t\t\t<div class=\"trigger-row\"></div>\n\t\t\t\t\t<div class=\"trigger-row\"></div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"main-content nikr-flex-row\">\n\t\t\t\t\t<div class=\"articles-content-row nikr-flex-row\">\n\t\t\t\t\t\t<div class=\"article-container nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"article-image-container\">\n\t\t\t\t\t\t\t\t<img src=\"../../images/article1.jpg\" alt=\"\" class=\"article-image\"/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h1 class=\"article-name\" id = \"article1-header\"><a href=\"article1.html\">Английский по сериалу «Полдарк», или Погружение в старую Англию</a></h1>\n\t\t\t\t\t\t\t\t\t<p class=\"article-summary\">\n\t\t\t\t\t\t\t\t\t\tМы искали для тебя лекарство от осенней грусти и, похоже, нашли - сериал «Poldark». Что может быть лучше, чем погружение в живописную солнечную Англию XVIII века вместо холодного дождливого вечера? \n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"article-footer nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"comments-container nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/comments.png\" alt=\"\" class=\"comments-ico\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"comments-count\"></span>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"button show-article\">Далее ...</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"article-container nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"article-image-container\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/article2.png\" alt=\"\" class=\"article-image\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h1 class=\"article-name\" id = \"article2-header\"><a href=\"article2.html\">Present Participle Perfect – редкий, да меткий</a></h1>\n\t\t\t\t\t\t\t\t\t<p class=\"article-summary\">\n\t\t\t\t\t\t\t\t\t\tПродолжим знакомство с причастиями настоящего времени. На этот раз возьмемся за форму Perfect. Для тех, кто забыл, напомню, что причастие в английском может быть: O причастии Present Participle Simple мы уже говорили. \n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"article-footer nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"comments-container nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/comments.png\" alt=\"\" class=\"comments-ico\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"comments-count\"></span>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"button show-article\">Далее ...</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"article-container nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"article-image-container\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/article3.jpg\" alt=\"\" class=\"article-image\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h1 class=\"article-name\" id = \"article3-header\"><a href=\"article3.html\">Нехороший английский, или English with Misfits</a></h1>\n\t\t\t\t\t\t\t\t\t<p class=\"article-summary\">\n\t\t\t\t\t\t\t\t\t\tСегодня мы разберем очередную порцию сериальной лексики. Под нашим прицелом знаменитые британские “Misfits” (“Отбросы” или “Плохие” - название сериала переводят по-разному). \n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"article-footer nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"comments-container nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/comments.png\" alt=\"\" class=\"comments-ico\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"comments-count\"></span>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"button show-article\">Далее ...</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"article-container nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"article-image-container\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/article4.png\" alt=\"\" class=\"article-image\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h1 class=\"article-name\" id = \"article4-header\"><a href=\"article4.html\">Запятые в английском языке, или Как не съесть бабушку на ужин</a></h1>\n\t\t\t\t\t\t\t\t\t<p class=\"article-summary\">\n\t\t\t\t\t\t\t\t\t\tЯ с детства люблю мультик «В стране невыученных уроков». Люблю хотя бы за то, как классно там показана важность знания правил пунктуации. Помнишь классическое «казнить нельзя помиловать»? \n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"article-footer nikr-flex-row \">\n\t\t\t\t\t\t\t\t\t\t<div class=\"comments-container nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/comments.png\" alt=\"\" class=\"comments-ico\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"comments-count\"></span>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"button show-article\">Далее ...</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"article-container nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"article-image-container\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/article5.jpg\" alt=\"\" class=\"article-image\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h1 class=\"article-name\" id = \"article5-header\"><a href=\"article5.html\">Игги Поп и его английский</a></h1>\n\t\t\t\t\t\t\t\t\t<p class=\"article-summary\">\n\t\t\t\t\t\t\t\t\t\tИгги Поп – фигура мирового масштаба. Он и группа The Stooges оказали решающее влияние на становление музыкального жанра «панк-рок». Скоро  Игги выступает в Москве, и любителям рок-музыки никак нельзя пропустить это событие. \n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"article-footer nikr-flex-row \">\n\t\t\t\t\t\t\t\t\t\t<div class=\"comments-container nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/comments.png\" alt=\"\" class=\"comments-ico\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"comments-count\"></span>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"button show-article\">Далее ...</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"article-container nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"article-image-container\">\n\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/article6.png\" alt=\"\" class=\"article-image\">\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<h1 class=\"article-name\" id = \"article6-header\">Who Which That: правила использования</h1>\n\t\t\t\t\t\t\t\t\t<p class=\"article-summary\">\n\t\t\t\t\t\t\t\t\t\tПереведи-ка на английский язык: «Это дом, который построил Джек». Каким словом ты переведешь «который»? Which? Или that? А может who?! Запутаться в этих словах с непривычки - легко. Разобраться с ними - еще легче.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"article-footer nikr-flex-row \">\n\t\t\t\t\t\t\t\t\t\t<div class=\"comments-container nikr-flex-row\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"../../images/comments.png\" alt=\"\" class=\"comments-ico\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"comments-count\"></span>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<button class=\"button show-article\">Далее ...</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t</div>\n\t\t<div class=\"scroll-to-top-container nikr-flex-column\">\n\t\t\t\t\t<p class=\"scroll-to-top-text\">Наверх</p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"sing-in-popup-container nikr-flex-column popup\">\n\t\t\t\t\t<div class=\"sing-in-popup-form nikr-flex-column\">\n\t\t\t\t\t\t<header class=\"popup-header nikr-flex-row\">\n\t\t\t\t\t\t\t<div class=\"popup-title nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-title-text\">Вход</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</header>\n\t\t\t\t\t\t<div class=\"sing-in-popup-form-content nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"sing-in-popup-login-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\">Логин:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"text\" class=\"popup-field login-field\" id='sing-in-login'/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"sing-in-popup-password-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\" id = 'sing-in-password'>Пароль:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"password\" class=\"popup-field password-field\"/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"popup-buttons nikr-flex-row\">\n\t\t\t\t\t\t\t\t<button class=\"popup-ok-button button\" id = 'ok-sing-in-button'>Вход</button>\n\t\t\t\t\t\t\t\t<button class=\"popup-cancel-button button\" id='close-sing-in-popup'>Отмена</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"sing-up-popup-container nikr-flex-column popup\">\n\t\t\t\t\t<div class=\"sing-up-popup-form nikr-flex-column\">\n\t\t\t\t\t\t<header class=\"popup-header nikr-flex-row\">\n\t\t\t\t\t\t\t<div class=\"popup-title nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-title-text\">Регистрация</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</header>\n\n\t\t\t\t\t\t<div class=\"sing-up-popup-form-content nikr-flex-column\">\n\t\t\t\t\t\t\t<div class=\"sing-up-popup-name-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\">Ваше имя:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"name\" class=\"popup-field name-field\" id='sing-up-name'/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"sing-up-popup-mail-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\">Введите ваш E-mail:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"text\" class=\"popup-field mail-field\" id='sing-up-mail'/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"sing-up-popup-login-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\">Придумайте логин:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"text\" class=\"popup-field login-field\" id='sing-up-login'/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"sing-up-popup-password-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\">Придумайте пароль:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"password\" class=\"popup-field password-field\" id='sing-up-password'/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"sing-up-popup-password-row nikr-flex-row\">\n\t\t\t\t\t\t\t\t<p class=\"popup-label\">Повторите пароль:</p>\t\n\t\t\t\t\t\t\t\t<input type=\"password\" class=\"popup-field password-field password-repeat\" id='sing-up-password-repeat'/>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"popup-buttons nikr-flex-row\">\n\t\t\t\t\t\t\t\t<button class=\"popup-ok-button button\" id = 'ok-sing-up-button'>Регистрация</button>\n\t\t\t\t\t\t\t\t<button class=\"popup-cancel-button button\" id='close-sing-up-popup'>Отмена</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n</body>\n</html>",
 			"file": "content/articles/articles.html",
-			"file_size": 12201,
-			"file_write_time": 131569266598944472,
 			"settings":
 			{
-				"buffer_size": 10671,
+				"buffer_size": 10699,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "content/videos/video2.html",
+			"settings":
+			{
+				"buffer_size": 6100,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "content/videos/video1.html",
+			"settings":
+			{
+				"buffer_size": 6036,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -515,7 +530,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 9702,
+				"buffer_size": 9904,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -533,7 +548,7 @@
 			"file": "css/theme.css",
 			"settings":
 			{
-				"buffer_size": 6320,
+				"buffer_size": 6392,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -594,10 +609,13 @@
 	[
 		"/D/code/firstsite/site/site",
 		"/D/code/firstsite/site/site/content",
-		"/D/code/firstsite/site/site/content/articles"
+		"/D/code/firstsite/site/site/content/articles",
+		"/D/code/firstsite/site/site/content/videos"
 	],
 	"file_history":
 	[
+		"/D/works/trunk/OPF_v.11.0.9.2_fix1/source/com/netcracker/applications/decomposition/instancebased/run.java",
+		"/C/Users/nikr0716/Desktop/tools/run.jsp/set_get_ncdo attr.txt",
 		"/D/edu/7сем/тси/firstsite/site/site/script/scripts.js",
 		"/D/edu/7сем/тси/firstsite/site/site/content/articles/articles.html",
 		"/D/edu/7сем/тси/site/site/style.css",
@@ -620,6 +638,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"video-name",
+			"article",
+			"trans",
+			"transi",
+			".video-name a",
+			"hover",
+			"order",
+			"import",
 			"<p>",
 			"h2",
 			"<br>",
@@ -734,7 +760,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -743,15 +769,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10564,
+						"buffer_size": 10686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10542,
-								7668
+								3351,
+								3351
 							]
 						],
 						"settings":
@@ -764,10 +790,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3046.0,
+						"translation.y": 728.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -799,7 +825,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -808,15 +834,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10671,
+						"buffer_size": 10699,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7097,
-								7097
+								6547,
+								6547
 							]
 						],
 						"settings":
@@ -828,14 +854,78 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2083.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "content/videos/video2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1756,
+								1756
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "3a911f07",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 519.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "content/videos/video1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2399,
+								2418
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "5da2c073",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "content/articles/article5.html",
 					"semi_transient": false,
 					"settings":
@@ -847,8 +937,8 @@
 						"selection":
 						[
 							[
-								8349,
-								8349
+								0,
+								8370
 							]
 						],
 						"settings":
@@ -867,7 +957,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "content/articles/article6.html",
 					"semi_transient": false,
 					"settings":
@@ -895,11 +985,11 @@
 						"translation.y": 3432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "content/articles/article1.html",
 					"semi_transient": false,
 					"settings":
@@ -927,11 +1017,11 @@
 						"translation.y": 2349.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "content/articles/article2.html",
 					"semi_transient": false,
 					"settings":
@@ -960,11 +1050,11 @@
 						"translation.y": 3280.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "content/articles/article4.html",
 					"semi_transient": false,
 					"settings":
@@ -992,11 +1082,11 @@
 						"translation.y": 3527.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "content/articles/article3.html",
 					"semi_transient": false,
 					"settings":
@@ -1024,7 +1114,7 @@
 						"translation.y": 2368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1034,20 +1124,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9702,
+						"buffer_size": 9904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1288,
-								1292
+								5629,
+								5639
 							]
 						],
 						"settings":
@@ -1059,14 +1149,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3601.0,
+						"translation.y": 5307.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "css/markup.css",
 					"semi_transient": false,
 					"settings":
@@ -1094,24 +1184,24 @@
 						"translation.y": 199.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "css/theme.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6320,
+						"buffer_size": 6392,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6170,
-								6170
+								4049,
+								4049
 							]
 						],
 						"settings":
@@ -1123,14 +1213,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1492.0,
+						"translation.y": 2913.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "css/fonts.css",
 					"semi_transient": false,
 					"settings":
@@ -1158,7 +1248,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1192,7 +1282,7 @@
 		"cols":
 		[
 			0.0,
-			0.514210773239,
+			0.621828669249,
 			1.0
 		],
 		"rows":

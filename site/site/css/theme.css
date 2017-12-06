@@ -98,7 +98,7 @@ body{
 	font-size: 1.2em;
 	letter-spacing: 0.01em;
 }
-.article-container .article-name a{
+.article-container .article-name a, .video-name a{
 	font-family: "RalewayBold";
 	text-transform: uppercase;
 	font-size: 1em;
@@ -121,6 +121,9 @@ body{
 	font-size: 1.7em;
 	letter-spacing: 0.02em;
 	border-bottom: 1px solid rgba(160,160,160, 0.3);
+}
+.nav-panel .video-name{
+	font-size: 1em;
 }
 .additional-content .additional-header{
 	font-family: "RalewayBold";
@@ -174,7 +177,7 @@ body{
 .article-container:hover .article-name{
 	color: rgb(42, 130, 129);
 }
-.article-container:hover .article-name a{
+.article-container:hover .article-name a, .video-content:hover .video-name a, .video-name:hover a{
 	color: rgb(42, 130, 129);
 }
 .article-footer .show-article{
@@ -194,8 +197,7 @@ body{
 .article-content{
 	background-color: #fff;
 	border: 1px solid rgba(160,160,160, 0.3);
-	padding: 5px;
-	margin: 5px;
+
 }
 .additional-content{
 	margin: 5px;
